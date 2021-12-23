@@ -1,0 +1,67 @@
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+
+}
+a{
+	text-decoration: none;
+	color: #805b2c;
+}
+.busness_card {
+	width: 400px;
+	height: 211px;
+	margin: auto auto;
+	overflow: hidden;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	justify-items: center;
+	box-shadow: black 10px 10px 100px;
+}
+
+.profile,.profile_details{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	gap: 10px;
+}
+
+.profile_image{
+	display: flex;
+	justify-content: center;
+}
+
+.profile_image img {
+	width: 70px;
+	height: 70px;
+	object-fit: contain;
+	border-radius: 100%;
+	overflow: hidden;
+ 
+}
+.profile_name h2 {
+	font-size: 20px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: #805b2c;
+	font-weight: 700;
+	margin: 0;
+	text-align: center;
+}
+.profile_name p {
+	font-size: 16px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: #805b2c;
+	font-weight: 400;
+	margin: 0;
+	text-align: center;
+}
+
+.details {
+	display: flex;
+	justify-items: center;
+	gap: 10px;
+	color:#805b2c ;
+}
